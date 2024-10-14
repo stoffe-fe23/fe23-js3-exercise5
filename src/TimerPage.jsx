@@ -8,7 +8,7 @@ export default function TimerPage() {
     return (
         <>
             <h1>Klockan</h1>
-            <div>Klockan är: {currentTime}</div>
+            <div className="clock">{currentTime}</div>
         </>
     );
 }

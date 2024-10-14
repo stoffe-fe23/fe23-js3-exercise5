@@ -6,7 +6,7 @@ export default function PageNotFound() {
     return (
         <>
             <h1>404!</h1>
-            <p>Angiven sida <strong>{loco.pathname}</strong> finns inte.</p>
+            <p>Angiven sida <strong className="four-oh-four">{loco.pathname}</strong> finns inte.</p>
         </>
     );
 }

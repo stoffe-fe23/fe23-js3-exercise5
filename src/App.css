@@ -1,0 +1,58 @@
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#root header {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+#root main {
+  flex-grow: 1;
+  padding: 2rem;
+}
+
+#root footer {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+}
+
+
+#root header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+#root header nav a {
+  padding: 0 0.5rem;
+  color: orange;
+}
+
+#root header nav a.menu-active {
+  color: yellow;
+  font-weight: 700;
+}
+
+.floaty {
+  float: right;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  max-width: 300px;
+  border-radius: 50%;
+}
+
+.counter-value {
+  font-weight: 700;
+  color: green;
+  margin-top: 1rem;
+}
